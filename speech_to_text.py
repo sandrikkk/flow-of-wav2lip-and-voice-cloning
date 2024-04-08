@@ -32,7 +32,6 @@ def transcribe_gcs(gcs_uri: str) -> str:
 
     # Join the transcripts into one long string
     transcript = " ".join(transcript_builder)
-    print(transcript)
 
     return transcript
 

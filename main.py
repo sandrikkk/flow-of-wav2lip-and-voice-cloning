@@ -51,4 +51,3 @@ if __name__ == '__main__':
     print("Started...")
     for yt_id in ids:
         text = process_video(yt_id)
-        print(text)
