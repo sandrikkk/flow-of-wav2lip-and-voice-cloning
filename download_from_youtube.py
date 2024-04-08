@@ -38,7 +38,7 @@ def upload_video(bucket_name, source_file_name, sub_folder):
     upload_to_gcs(bucket_name=bucket_name, source_file_name=source_file_name, sub_folder=sub_folder)
 
 
-def download_and_trim_video(video_url, start_time=5.2, end_time=21.25):
+def download_and_trim_video(video_url, start_time=5.2, end_time=21):
     """Download a video, extract a subclip, and upload both to GCS."""
     try:
         # Download the video
